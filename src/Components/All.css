@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+
+.Main1{
+    display: grid;
+    grid-template-rows: 5rem 1fr 5rem ;
+    grid-template-columns: 1fr;
+}
+
+.Main2{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.cart3{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    
+    
+}
+.cart3 img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 50rem;
+    height: 50rem;
+
+}
+
+.side{
+    background-color: bisque;
+    padding:0.5rem;
+    height: 50rem;
+    border-radius: 1rem;
+    width: 25rem;
+    margin: 1rem;
+
+}
+
+.head1{
+    background-color: black;
+    padding: 2rem;
+    color: blanchedalmond;
+    align-items: center;
+}
+
+.foot1{
+    background-color: black;
+    padding: 2rem;
+    color: blanchedalmond;
+    align-items: center;
+}
+
+
+
+.product img{
+    width:15rem;
+    height: 15rem;
+
+}
+
+.product img:hover{
+    transform: scale(1.25);
+}
+
+.title{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: tomato;
+}
+
+.pricebutton{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricebutton button{
+    margin:0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color:antiquewhite;
+    transition-property: background;
+    transition-duration: 1000ms;
+}
+
+.pricebutton button:hover{
+    background-color:rgb(238, 186, 74);
+}
